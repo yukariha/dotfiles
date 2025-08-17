@@ -1,0 +1,25 @@
+sw_volume: 100
+audio_device_state:1:CoreAudio
+state: pause
+current: 9
+time: 35.959
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Aimer/Albums/Penny Rain/02. I beg you.m4a
+1:Aimer/Albums/Penny Rain/10. April Showers.m4a
+2:Aimer/Albums/Open a Door/09. escalate.m4a
+3:Aimer/Singles & EPs/Dareka Umio/01. Dareka Umiwo.m4a
+4:Cö Shu Nie/Albums/Flos Ex Machina/05. all because of flowers.m4a
+5:Cö Shu Nie/Albums/Flos Ex Machina/03. undress me.m4a
+6:Aimer/Albums/Open a Door/02. Zankyosanka.m4a
+7:Aimer/Albums/Penny Rain/02. I beg you.m4a
+8:Aimer/Albums/Open a Door/01. Open a Door.m4a
+9:Aimer/Albums/Open a Door/02. Zankyosanka.m4a
+playlist_end

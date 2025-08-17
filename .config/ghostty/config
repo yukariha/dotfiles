@@ -1,0 +1,22 @@
+theme = "GruvboxDark"
+
+font-family = "DepartureMono Nerd Font Mono"
+font-size = 16
+
+font-thicken = true
+font-thicken-strength = 180
+
+window-padding-x = 15
+window-padding-y = 10
+
+background-opacity = 0.95
+background-blur = 16
+
+window-decoration = none
+# macos-titlebar-style = hidden
+
+macos-option-as-alt = true
+
+macos-non-native-fullscreen = true
+
+window-vsync = false

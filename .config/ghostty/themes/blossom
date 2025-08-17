@@ -1,0 +1,28 @@
+# Blossom (light) — Ghostty theme
+# Source: https://github.com/rayes0/blossom.vim
+# Author: rayes (https://github.com/rayes0)
+
+background = #ede6e3
+foreground = #685c56
+
+cursor-color = #685c56
+selection-background = #e6dad6
+selection-foreground = #574b45
+
+palette = 0=#ede6e3
+palette = 1=#3A3A3A
+palette = 2=#637A8A
+palette = 3=#AA8F7C
+palette = 4=#8B8F7E
+palette = 5=#877979
+palette = 6=#937F74
+palette = 7=#685c56
+
+palette = 8=#ede6e3
+palette = 9=#3A3A3A
+palette = 10=#637A8A
+palette = 11=#AA8F7C
+palette = 12=#8B8F7E
+palette = 13=#877979
+palette = 14=#937F74
+palette = 15=#685c56

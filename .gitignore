@@ -1,0 +1,17 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*.swp
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
