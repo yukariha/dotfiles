@@ -15,3 +15,8 @@ Thumbs.db
 *.tmp
 *.swp
 *.swo
+
+database
+log
+pid
+state
