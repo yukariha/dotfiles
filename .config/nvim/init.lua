@@ -126,6 +126,15 @@ vim.keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "Yank to system clipbo
 vim.keymap.set({ "n", "v" }, "<leader>p", '"+p', { desc = "Paste from system clipboard" })
 vim.keymap.set("n", "<leader>Y", '"+yy', { desc = "Yank line to system clipboard" })
 
+-- LSP Rename
+vim.api.nvim_set_keymap("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>", { noremap = true, silent = true })
+
+-- Force sane tab width
+vim.opt_local.expandtab = false -- use tabs
+vim.opt_local.tabstop = 4 -- show tabs as 4 spaces wide
+vim.opt_local.shiftwidth = 4 -- indent width = 4
+vim.opt_local.softtabstop = 4
+
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
@@ -631,7 +640,7 @@ require("lazy").setup({
 			--        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
 			local servers = {
 				clangd = {},
-				-- gopls = {},
+				gopls = {},
 				-- pyright = {},
 				rust_analyzer = {},
 				-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
@@ -847,7 +856,7 @@ require("lazy").setup({
 			---@diagnostic disable-next-line: missing-fields
 			require("catppuccin").setup({
 				flavour = "macchiato",
-				transparent_background = false,
+				transparent_background = true,
 			})
 
 			-- Load the colorscheme here.
@@ -883,7 +892,7 @@ require("lazy").setup({
 			end
 
 			-- vim.opt.background = "light"
-			vim.g.gruvbox_material_background = "soft"
+			vim.g.gruvbox_material_background = "hard"
 			vim.g.gruvbox_material_better_performance = 1
 
 			vim.cmd.colorscheme("gruvbox-material")
@@ -907,6 +916,13 @@ require("lazy").setup({
 		opts = {
 			-- add any options here
 		},
+	},
+
+	{
+		"windwp/nvim-autopairs",
+		config = function()
+			require("nvim-autopairs").setup({})
+		end,
 	},
 
 	-- {

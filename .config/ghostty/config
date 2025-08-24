@@ -1,6 +1,8 @@
-theme = "GruvboxDark"
+# theme = "GruvboxDark"
+theme = "catppuccin-macchiato"
 
 font-family = "DepartureMono Nerd Font Mono"
+# font-family = "FiraCode Nerd Font Mono"
 font-size = 16
 
 font-thicken = true
